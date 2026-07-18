@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-container {
+  width: 100%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.profile-container h1 {
+  margin-bottom: 30px;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.tab-buttons button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: wheat;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.tab-buttons button:hover {
+  background: aqua;
+}
+.card {
+  width: 450px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.15);
+  text-align: left;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.card p {
+  margin: 12px 0;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.card li {
+  margin: 10px 0;
+}
+
+.view-btn {
+  margin-top: 15px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #198754;
+  color: white;
+  font-size: 16px;
+}
+
+.view-btn:hover {
+  background: #157347;
+}
+
+.card h3 {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .tab-buttons {
+    flex-direction: column;
+  }
+
+  .tab-buttons button {
+    width: 100%;
+  }
+}

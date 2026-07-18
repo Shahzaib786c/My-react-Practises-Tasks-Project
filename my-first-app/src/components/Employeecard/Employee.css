@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.ec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card5 {
+  width: 450px;
+  height: 300px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color:  #121824 ;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.card5 h2 {
+  color: #00D4B2  ;
+}
+.card5 h1{
+  font-family: 'Times New Roman', Times, serif;
+  color: #FFFFFF  ;
+
+}
+.card5 p{
+  font-size: large;
+  color: #829AB1  ;
+}

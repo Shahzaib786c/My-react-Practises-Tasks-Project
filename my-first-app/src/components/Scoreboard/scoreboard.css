@@ -1,0 +1,36 @@
+.scbd {
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.scbd .inscbd {
+  width: 600px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.15);
+  flex-wrap: wrap;
+}
+.scbd button {
+  padding: 10px 40px;
+  margin-bottom: 20px;
+}
+
+.scbd h2 {
+  font-size: 30px;
+  margin-right: 30px;
+}
+.scbd h3 {
+  font-size: xx-large;
+  margin-right: 20px;
+}

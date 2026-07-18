@@ -1,0 +1,14 @@
+.lit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px ;
+  margin-bottom: 40px ;
+
+}
+.lit button {
+  background-color: aquamarine;
+  font-size: larger;
+  padding: 12px 30px;
+}
