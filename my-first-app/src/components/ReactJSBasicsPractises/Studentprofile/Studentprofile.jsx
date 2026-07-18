@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./Studentprofile.css";
-import Detail from "../../Pages/Detail";
-import Marks from "../../Pages/Marks";
-import Attendence from "../../Pages/Attendence";
+import Detail from "../../../Pages/Detail";
+import Marks from "../../../Pages/Marks";
+import Attendence from "../../../Pages/Attendence";
 
 const Studentprofile = () => {
   const [activeTab, setActiveTab] = useState("details");
