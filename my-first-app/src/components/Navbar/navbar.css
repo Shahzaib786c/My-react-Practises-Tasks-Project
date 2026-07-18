@@ -9,7 +9,8 @@
     top: 0%;
     width: 100%;
     height: 160px;
-    background-color: teal;
+    background-color: whitesmoke;
+    border-bottom: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,8 +35,10 @@
 }
 
 .navbar .navlinks a {
-    color: black;
+    color: red;
     text-decoration: none;
     margin-right: 85px;
+    font-size: larger;
+    font-family: fantasy;
 
 }
